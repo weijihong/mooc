@@ -8,7 +8,7 @@
 
 一个网页端的todolist demo 支持添加，删除，分类显示todo任务
 
-![demo](/Users/jihongwei/Desktop/mooc/todolist/demo.png)
+![demo效果图](https://upload-images.jianshu.io/upload_images/1500893-ac84d1b2a178bd45.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 #### 2.如何部署
 
