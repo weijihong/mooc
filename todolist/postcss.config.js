@@ -4,7 +4,7 @@ const autoprefixer = require('autoprefixer')
 
 module.exports = {
     plugins:[
-        // 自动加浏览器前缀，如web-kit等
+        // 针对一些需要加浏览器前缀的属性，如web-kit等
         autoprefixer()
     ]
 }
