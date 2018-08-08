@@ -2,7 +2,7 @@
 
 ## [1.Vue+Webpack打造todo应用](https://www.imooc.com/learn/935)
 
-#### 1.1 学习目的
+## 1.1 学习目的
 
 通过webpack+vue2的配置运行一个vue的工程，并使用vue开发一个简单的项目
 
@@ -10,14 +10,14 @@ Webpack: 打包所有资源，脚本的工具，模块化...
 
 Vue2：一款渐进式JavaScript框架，特点：数据绑定，把对dom的操作转化为对数据的操作，组件化开发（数据变化后，会执行render方法更新html内容）
 
-#### 1.2 学习内容
+## 1.2 学习内容
 
 - es6语法
 - vue父子组件通信，计算属性（数据变动才会再次计算，否则使用缓存）
 - Webpack配置前端工程
 - Webpack打包优化
 
-#### 1.3 打包过程
+## 1.3 打包过程
 
 1. 新建文件夹，执行`npm init`，让npm管理这个文件夹（以便后期安装我们所需要的包）
 
@@ -42,7 +42,7 @@ Vue2：一款渐进式JavaScript框架，特点：数据绑定，把对dom的操
 
 6. 执行`npm run build` 进行打包，在根目录下生成 /dist/bundle.js
 
-#### 1.4 webpack-dev-server（用于开发环境）
+## 1.4 webpack-dev-server（用于开发环境）
 
 - 安装 cross-env（解决不同平台启动dev-server命令不同问题）:	npm i cross-env
 
@@ -58,9 +58,9 @@ Vue2：一款渐进式JavaScript框架，特点：数据绑定，把对dom的操
 - 需要一个html文件（作为入口）容纳之前打包好的js，需要安装插件：`npm i html-webpack-plugin` 然后在webpack.config.js中进行引入并完成相关配置
 - 执行`npm run dev` 后，在浏览器访问：`127.0.0.1:8000` 访问 
 
-#### 1.5 正式使用VUE2进行项目开发（见业务逻辑代码）
+## 1.5 正式使用VUE2进行项目开发（见业务逻辑代码）
 
-#### 1.6 webpack配置优化
+## 1.6 webpack配置优化
 
 > 由于打包后生成一个js文件，里面包含了css，类库代码，业务代码等复杂代码
 >
